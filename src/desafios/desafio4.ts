@@ -228,11 +228,11 @@ function updatePagesNavigationContainer(container: HTMLDivElement, numberOfPages
 }
 
 
-type HttClientResponse = RequestTokenResponse & 
+type HttpClientResponse = RequestTokenResponse & 
 SessionResponse & CreatedListsResponse & AccountResponse & ListResponse & FilmSearchResponse & FilmResponse;
 
 class HttpClient {
-    static async get({ url, method, body = null }: HttpClientGetArguments): Promise<HttClientResponse> {
+    static async get({ url, method, body = null }: HttpClientGetArguments): Promise<HttpClientResponse> {
         return new Promise((resolve, reject) => {
             let request = new XMLHttpRequest();
             request.open(method, url, true);
