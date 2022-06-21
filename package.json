@@ -1,5 +1,5 @@
 {
-  "name": "tqi-typescript-challenge",
+  "name": "dio-typescript-challenge",
   "version": "1.0.0",
   "description": "Typescript challenge code to finish the JavaScript module.",
   "main": "index.js",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/masachetti/tqi-typescript-challenge.git"
+    "url": "git+https://github.com/masachetti/dio-typescript-challenge.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/masachetti/tqi-typescript-challenge/issues"
+    "url": "https://github.com/masachetti/dio-typescript-challenge/issues"
   },
-  "homepage": "https://github.com/masachetti/tqi-typescript-challenge#readme",
+  "homepage": "https://github.com/masachetti/dio-typescript-challenge#readme",
   "devDependencies": {
     "typescript": "^4.7.4"
   },
